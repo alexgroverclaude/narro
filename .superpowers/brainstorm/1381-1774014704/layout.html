@@ -1,0 +1,84 @@
+<h2>Landing page layout</h2>
+<p class="subtitle">How much content? All three include the email waitlist and Narro branding.</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="lean" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#0A0A0A;padding:16px;font-family:system-ui;min-height:220px">
+      <div style="background:rgba(255,255,255,0.08);border-radius:4px;height:18px;width:100%;margin-bottom:8px;display:flex;align-items:center;padding:0 8px">
+        <span style="color:rgba(255,255,255,0.4);font-size:9px">narro · Join waitlist</span>
+      </div>
+      <div style="background:linear-gradient(135deg,rgba(232,85,58,0.3),rgba(0,0,0,0));border-radius:6px;padding:16px;margin-bottom:6px">
+        <div style="color:#fff;font-size:13px;font-weight:800;line-height:1.2;margin-bottom:6px">Narrow down your options.</div>
+        <div style="background:rgba(255,255,255,0.1);border-radius:20px;height:22px;width:100%;margin-bottom:6px"></div>
+        <div style="background:#E8553A;border-radius:20px;height:22px;width:60%"></div>
+        <div style="color:rgba(255,255,255,0.3);font-size:8px;margin-top:8px;text-align:center">Join 1,200+ Londoners on the waitlist</div>
+      </div>
+      <div style="display:flex;gap:4px;margin-bottom:6px">
+        <div style="flex:1;background:rgba(255,255,255,0.05);border-radius:4px;height:28px"></div>
+        <div style="flex:1;background:rgba(255,255,255,0.05);border-radius:4px;height:28px"></div>
+        <div style="flex:1;background:rgba(255,255,255,0.05);border-radius:4px;height:28px"></div>
+      </div>
+      <div style="background:rgba(255,255,255,0.04);border-radius:4px;height:16px;width:100%"></div>
+    </div>
+    <div class="card-body">
+      <h3>Lean — 4 sections</h3>
+      <p><strong>Nav → Hero + form → 3 feature pills → Footer</strong><br>Fast to build, high-focus, all attention on the email signup. Best for pure waitlist conversion.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="standard" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#0A0A0A;padding:16px;font-family:system-ui;min-height:220px">
+      <div style="background:rgba(255,255,255,0.08);border-radius:4px;height:14px;width:100%;margin-bottom:6px"></div>
+      <div style="background:linear-gradient(135deg,rgba(232,85,58,0.25),rgba(0,0,0,0));border-radius:6px;padding:12px;margin-bottom:5px;display:flex;gap:8px;align-items:center">
+        <div style="flex:1">
+          <div style="background:rgba(255,255,255,0.8);height:8px;width:80%;border-radius:2px;margin-bottom:4px"></div>
+          <div style="background:rgba(255,255,255,0.4);height:6px;width:60%;border-radius:2px;margin-bottom:8px"></div>
+          <div style="background:#E8553A;height:16px;width:50%;border-radius:10px"></div>
+        </div>
+        <div style="width:40px;background:linear-gradient(135deg,#1a1a1a,#333);border-radius:6px;height:70px;flex-shrink:0;border:2px solid #333"></div>
+      </div>
+      <div style="display:flex;gap:3px;margin-bottom:5px">
+        <div style="flex:1;background:rgba(232,85,58,0.15);border-radius:4px;height:32px"></div>
+        <div style="flex:1;background:rgba(7,193,96,0.12);border-radius:4px;height:32px"></div>
+        <div style="flex:1;background:rgba(59,91,219,0.12);border-radius:4px;height:32px"></div>
+      </div>
+      <div style="background:rgba(255,255,255,0.04);border-radius:4px;height:24px;width:100%;margin-bottom:4px"></div>
+      <div style="background:rgba(255,255,255,0.03);border-radius:4px;height:10px;width:100%"></div>
+    </div>
+    <div class="card-body">
+      <h3>Standard — 6 sections</h3>
+      <p><strong>Nav → Hero (text + phone mockup) → 3 features → App screenshots → Waitlist CTA → Footer</strong><br>Shows the app, sells the vision, collects emails. Balanced.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="full" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#0A0A0A;padding:16px;font-family:system-ui;min-height:220px">
+      <div style="background:rgba(255,255,255,0.08);border-radius:4px;height:14px;width:100%;margin-bottom:6px"></div>
+      <div style="background:linear-gradient(135deg,rgba(232,85,58,0.25),rgba(0,0,0,0));border-radius:6px;padding:10px;margin-bottom:4px;display:flex;gap:6px;align-items:center">
+        <div style="flex:1">
+          <div style="background:rgba(255,255,255,0.8);height:7px;width:80%;border-radius:2px;margin-bottom:3px"></div>
+          <div style="background:#E8553A;height:14px;width:45%;border-radius:10px;margin-top:6px"></div>
+        </div>
+        <div style="width:36px;background:linear-gradient(135deg,#1a1a1a,#333);border-radius:6px;height:60px;flex-shrink:0;border:2px solid #333"></div>
+      </div>
+      <div style="display:flex;gap:3px;margin-bottom:4px">
+        <div style="flex:1;background:rgba(232,85,58,0.12);border-radius:3px;height:24px"></div>
+        <div style="flex:1;background:rgba(7,193,96,0.1);border-radius:3px;height:24px"></div>
+        <div style="flex:1;background:rgba(59,91,219,0.1);border-radius:3px;height:24px"></div>
+      </div>
+      <div style="display:flex;gap:3px;margin-bottom:4px">
+        <div style="flex:1;background:rgba(255,255,255,0.06);border-radius:3px;height:30px"></div>
+        <div style="flex:1;background:rgba(255,255,255,0.06);border-radius:3px;height:30px"></div>
+        <div style="flex:1;background:rgba(255,255,255,0.06);border-radius:3px;height:30px"></div>
+      </div>
+      <div style="background:rgba(232,85,58,0.15);border-radius:4px;height:18px;width:100%;margin-bottom:3px"></div>
+      <div style="background:rgba(255,255,255,0.03);border-radius:3px;height:10px;width:100%"></div>
+    </div>
+    <div class="card-body">
+      <h3>Full — 7 sections</h3>
+      <p><strong>Nav → Hero → Features → App screenshots (3 phones) → How it works → Waitlist CTA → Footer</strong><br>Full storytelling arc. More scrolling but tells the complete Narro story.</p>
+    </div>
+  </div>
+
+</div>

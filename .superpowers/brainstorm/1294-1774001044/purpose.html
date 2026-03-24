@@ -1,0 +1,28 @@
+<h2>What should the public website be?</h2>
+<p class="subtitle">This shapes everything — Supabase usage, page structure, and what we build</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Marketing landing page + waitlist</h3>
+      <p>New homepage sells Narro as a product — hero, features, screenshots, email signup form. Supabase stores waitlist emails. Demo app stays at <code>/narro</code>. Screenshot generator moves to <code>/screenshots</code>. Best for: launching Narro publicly and collecting early users.</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Deploy what exists + real data from Supabase</h3>
+      <p>Keep the same pages but deploy to Vercel and replace hardcoded restaurant/deal/review data with real rows from Supabase. The demo app becomes a live demo with editable content. Best for: a working prototype you can show to investors or early testers.</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Full product: landing page + live app + real data</h3>
+      <p>Landing page at <code>/</code> with waitlist, the Narro demo app powered by real Supabase data, and the screenshot generator as a bonus tool. Supabase handles email signups, restaurants, deals, and reviews. Best for: shipping the full vision as a real website.</p>
+    </div>
+  </div>
+</div>
